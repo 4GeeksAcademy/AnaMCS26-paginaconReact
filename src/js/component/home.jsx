@@ -19,12 +19,13 @@ const Home = () => {
 				<Card />
 			</div>
 			
-			
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+			<div className="p-2 mb-2 bg-secondary text-white" style={{marginTop:'10px'}}>
+				<p>
+					Made by{" "}
+					<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
+					love!
+				</p>
+			</div>
 		</div>
 	);
 };
