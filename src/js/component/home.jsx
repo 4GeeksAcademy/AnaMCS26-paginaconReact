@@ -12,7 +12,7 @@ const Home = () => {
 			<div>
 				<Jumbotron />
 			</div>
-			<div className="container" style={{display: 'flex', flexDirection: 'row', paddingTop: '10px'}}>
+			<div className="d-flex flex-wrap justify-content-around mt-3">
 				<Card />
 				<Card />
 				<Card />
